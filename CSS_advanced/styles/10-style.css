@@ -42,10 +42,10 @@ a {
 .visually-hidden {
   display: none;
 }
-.card-category, .section-header {
+.card-category, .section-tagline {
   color: var(--color-primary);
   
 }
-.section-tagline {
+.section-header {
    text-align: var(--section-header-align);
 }
