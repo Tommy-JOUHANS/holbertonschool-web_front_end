@@ -368,7 +368,6 @@ template {
   --line-height-big: 1.8;
   --section-header-align: center;
   --section-tagline-transform: uppercase;
-  --section-tagline-margin: 0;
   --section-title-margin: 0;
   --section-title-color: var(--color-black);
   --section-padding: 5rem 0;
@@ -384,6 +383,7 @@ template {
   --nav-item-display: inline-block;
   --nav-item-margin: 0 0 3rem 0;
   --nav-item-link-hover: var(--color-primary);
+  --section-tagline-margin: 0;
 }
 
 html {
