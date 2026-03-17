@@ -35,10 +35,12 @@ h1, h2, h3, h4, h5, h6 {
 body, a {
   color: var(--text-color);
 }
+a {
+    text-decoration: none;
+}
 .visually-hidden {
   display: none;
 }
 .card-category, .section-tagline {
   color: var(--color-primary);
-  text-decoration: none;
 }
