@@ -42,7 +42,10 @@ a {
 .visually-hidden {
   display: none;
 }
-.card-category, .section-tagline, .section-header {
+.card-category, .section-header {
   color: var(--color-primary);
-  text-align: var(--section-header-align);
+  
+}
+.section-tagline {
+   text-align: var(--section-header-align);
 }
