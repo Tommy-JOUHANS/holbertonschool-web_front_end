@@ -486,8 +486,8 @@ ul.row{
     width: 10rem;
     height: 10rem;
 }
- cite.card-quote cite.card-avatar{
-    font-style: block;
-    pad: 1rem;
+ .card-quote .card-avatar cite{
+    display: block;
+    padding-top: 1rem;
     color: var(--color-primary);
  }
