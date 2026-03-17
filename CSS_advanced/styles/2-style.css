@@ -2,10 +2,19 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
-   background-color: #161616;
-   visually-hidden: none;
-   card-category: #D73953;
-   section-tagline: #D73953;
+body, a {
+ color: #161616;
+ 
 }
 
+.visually-hidden {
+    color: none;
+} 
+
+.card-category {
+   display: #D73953;
+} 
+  
+.section-tagline{
+color : #D73953;
+}
