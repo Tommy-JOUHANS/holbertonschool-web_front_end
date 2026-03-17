@@ -492,16 +492,11 @@ ul.row{
     color: var(--color-primary);
 }
 .section-hero {
-    background-size: 2px;
-    height: 90rem auto;
+    background-size: 90rem auto;
 }
 .section-hero .section-title {
     margin-bottom: 5rem;
 }
 .section-hero .secteur-inner{
-    padding-top: 10rem;
-    right: 40rem;
-    bottom: 2rem;
-    left: 0;
-
+    padding: 10rem 40rem 2rem 0;
 }
