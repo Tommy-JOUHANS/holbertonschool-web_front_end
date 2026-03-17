@@ -11,10 +11,6 @@ body, a {
     color: none;
 } 
 
-.card-category {
-   display: #D73953;
-} 
-  
-.section-tagline{
+.card-category, .section-tagline{
 color : #D73953;
 }
