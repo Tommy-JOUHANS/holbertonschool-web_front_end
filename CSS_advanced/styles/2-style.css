@@ -1,0 +1,11 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+   background-color: #161616;
+   visually-hidden: none;
+   card-category: #D73953;
+   section-tagline: #D73953;
+}
+
