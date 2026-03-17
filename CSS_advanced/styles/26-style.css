@@ -478,7 +478,7 @@ ul.row{
     text-decoration: var(--button-hover-text-decoration);
     background-color: var(--button-hover-background);
 }
-.cart-testimonial {
+.card-testimonial {
     text-align: center;
 }
 .card-testimonial .card-avatar {
@@ -486,8 +486,8 @@ ul.row{
     width: 10rem;
     height: 10rem;
 }
- .card-testimonial .card-quote cite {
+.card-testimonial .card-quote cite {
     display: block;
     padding-top: 1rem;
     color: var(--color-primary);
- }
+}
