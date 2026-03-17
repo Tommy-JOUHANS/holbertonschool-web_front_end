@@ -45,8 +45,12 @@ a {
 }
 .card-category, .section-tagline {
   color: var(--color-primary);
-  font-family: var(--section-tagline-transform);
-  font-weight: var(--section-tagline-transform);
+ 
+}
+.section-tagline {
+  font-family: var(--font-family-title);
+  text-transform: var(--section-tagline-transform);
+  font-weight: var(--font-weight-bold);
 }
 .section-header {
    text-align: var(--section-header-align);
