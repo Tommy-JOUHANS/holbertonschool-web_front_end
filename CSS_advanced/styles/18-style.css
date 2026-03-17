@@ -379,9 +379,9 @@ template {
   --nav-item-font-family: var(--font-family-title);
   --nav-item-font-weight: var(--font-weight-bold);
   --nav-item-font-size: var(--font-size-medium);
-  --nav-item-letter-spacing: 4%;
-  --nav-item-display: var(--inline-block);
-  --nav-item-margin: 3rem 0 0;
+  --nav-item-letter-spacing: 0.04rem;
+  --nav-item-display: inline-block;
+  --nav-item-margin: 0 0 3rem 0;
   --nav-item-link-hover: var(--color-primary);
 }
 
@@ -452,15 +452,16 @@ a:active {
     padding: var(--footer-padding);
 }
 
+.navbar-menu {
+    float: right;
+}
 .nav {
     margin: 0;
     padding: 0;
     list-style: none;
-    align-content: center ;
-    color: var(--nav-item-link-hover);
+    text-align: center;
 }
-
-.nav_item {
+.nav .nav-item {
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
@@ -468,9 +469,10 @@ a:active {
     display: var(--nav-item-display);
     margin: var(--nav-item-margin);
 }
-
-.nav-link {
+.nav .nav-link {
     display: block;
-    padding-bottom: left, right, equal;
-    padding-top: left, right, equal;
+    padding: 0.5rem 1rem;
+}
+.nav .nav-link:hover {
+    color: var(--nav-item-link-hover);
 }
