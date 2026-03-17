@@ -428,20 +428,25 @@ a:active {
   color: var(--section-title-color);
 }
 
-.section-padding {
+.section {
     padding: var(--section-padding);
 }
 
 .section-header {
   text-align: var(--section-header-align);
-  padding-inline-start: var(--section-header-padding);
+  padding: var(--section-header-padding);
 }
 
 .section-body {
-  padding-inline: var(--section-body-padding);
+  padding: var(--section-body-padding);
 }
-.footer {
-  padding-inline-end: var(--section-footer-padding);
+
+.section-footer {
+  padding: var(--section-footer-padding);
   align-content: var(--section-footer-align);
-  padding-block-end: var(--footer-padding);
+}
+
+.footer {
+
+  padding: var(--footer-padding);
 }
